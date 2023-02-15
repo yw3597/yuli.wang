@@ -1,0 +1,30 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+}
+body{
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    background-color:rgb(168, 168, 168)   
+}
+strong{color: blue;}
+em{color: blue;}
+h1,h3{text-align: center;}
+p{text-align: justify;}
+.container{display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.right{
+    border: 4px solid rgb(0, 0, 0);
+    padding: 40px 40px 40px 40px;
+    margin: 40px 40px 40px 40px;
+    width:20%;
+    background-color: rgb(255,255,255);
+}
+.left{
+    border: 4px solid rgb(50, 50, 50);
+    padding: 40px 40px 40px 40px;
+    margin: 40px 40px 40px 40px;
+    width:20%;
+    background-color: rgb(255, 255, 255)
+}

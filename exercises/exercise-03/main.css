@@ -2,13 +2,14 @@ body{
     font-family: 'Libre Baskerville', serif;
 }
 body{
-    text-align: justify;
     margin: 40px 40px 40px 40px;
 }
 h1,h3{text-align: center;
 }
 strong{color: blue;}
 em{color: blue;}
+p{text-align: justify;}
 p{font-size: 15px;}
 h1{font-size: 30px;}
 h3{font: size 20px;}
+h3{color: blue;}
