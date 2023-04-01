@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background: #28de95;
+    line-height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+li {
+    padding: 0 40px;
+}
+
+li:hover {
+    animation: colors 2s;
+}
+
+@keyframes colors {
+    50% {
+        background-color: #f0be74;
+    }
+    100% {
+        background-color: #f8ad3c;
+    }
+}
