@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background: #28de95;
+    line-height: 50px;
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+
+
+
+.p-container {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:100ch;
+    margin:0;
+}
+
+
+#switcher {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  #switcher li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 15px 0;
+    border-radius: 30px;
+    border: 3px solid black;
+  }
+
+/* button colors*/
+
+#yellowButton {
+    background-color:rgb(224, 200, 101);
+}
+#redButton{
+    background-color:rgb(219, 67, 67);
+}
+#blueButton{
+    background-color:rgb(101, 121, 224);
+}
+#greenButton{
+    background-color:rgb(53, 187, 138);
+}
+ /* background colors */
+  
+ .yellow-theme {
+    background-color: rgb(224, 200, 101);
+  }
+  
+  .red-theme {
+    background-color: rgb(219, 67, 67);
+  }
+  
+  .blue-theme {
+    background-color:rgb(101, 121, 224);
+  }
+  
+  .green-theme {
+    background-color: rgb(53, 187, 138);
+  }
