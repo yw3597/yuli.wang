@@ -10,7 +10,7 @@ let blueBtn = document.getElementById("blueButton");
 let redBtn = document.getElementById("redButton");
 let greenwBtn = document.getElementById("greenButton");
 
-// 3 -- Write an event handler to change the color of the page when each circle is pressed.
+// 2 -- Write an event handler to change the color of the page when each circle is pressed.
 
 function switchToYellow() {
   let body = document.querySelector("body");
@@ -35,7 +35,8 @@ function switchToGreen() {
   body.style.backgroundColor = "#35bb8a";
   body.style.color = "#35bb8a";
 }
-// 2 -- Add an event listener to each circle
+
+// 3 -- Add an event listener to each circle
 yellowBtn.addEventListener("click", switchToYellow);
 blueBtn.addEventListener("click", switchToBlue);
 redBtn.addEventListener("click", switchToRed);
