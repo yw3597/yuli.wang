@@ -59,12 +59,6 @@ transform: translateY(-50%);
     margin:0px;
 }
 
-
-img{
-    height:180px;
-    width:180px;
-    object-fit:cover;
-}
 img:hover{
     transform:scale(1.5);
 }
@@ -74,6 +68,34 @@ img:hover{
 }
 .image-240{
     rotate:-240deg;
+}
+.image-54{
+    rotate:-54deg;
+}
+.image-108{
+    rotate:-108deg;
+}
+.image-054{
+    rotate:54deg;
+}
+.image-0108{
+    rotate:108deg;
+}
+.image-45{
+    rotate:-45deg;
+}
+.image-90{
+    rotate:-90deg;
+}
+.image-135{
+    rotate:-180deg;
+    border-radius:50%;
+}
+.image-180{
+    rotate:-225deg;
+}
+.image-225{
+    rotate:0deg;
 }
 .main{
     width:400px;
@@ -90,7 +112,7 @@ img:hover{
 .circle{
     width:180px;
     height:180px;
-    border-radius:500%;
+    border-radius:50%;
     position:absolute;
     left:110px;
     top:110px;
@@ -108,4 +130,79 @@ img:hover{
     transform:rotate(240deg) translateX(200px); 
 }
 
+.main02{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-150px;
+    margin-left:50px;
+}
 
+.circle02{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    position:absolute;
+    left:100px;
+    top:100px;
+}
+
+.circle02:nth-child(1){
+    transform: translateX(150px);
+}
+
+.circle02:nth-child(2){
+    transform:rotate(54deg) translateX(150px); 
+}
+
+.circle02:nth-child(3){
+    transform:rotate(108deg) translateX(150px); 
+}
+.circle02:nth-child(4){
+    transform:rotate(-54deg) translateX(150px); 
+}
+.circle02:nth-child(5){
+    transform:rotate(-108deg) translateX(150px); 
+}
+
+.main03{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:25px;
+    margin-left:-255px;
+}
+.circle03{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    position:absolute;
+    left:110px;
+    top:110px;
+}
+.circle03:nth-child(1){
+    transform: rotate(0deg)translateX(150px);
+}
+
+.circle03:nth-child(2){
+    transform:rotate(45deg) translateX(150px); 
+}
+
+.circle03:nth-child(3){
+    transform:rotate(90deg) translateX(150px); 
+}
+.circle03:nth-child(4){
+    transform:rotate(135deg) translateX(150px); 
+}
+.circle03:nth-child(5){
+    transform:rotate(180deg) translateX(150px); 
+}
+.circle03:nth-child(6){
+    transform:rotate(225deg) translateX(150px); 
+}
