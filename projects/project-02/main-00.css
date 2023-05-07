@@ -1,0 +1,42 @@
+body{
+    margin:10px;
+    padding:20px;
+    overflow:scroll;
+    height:auto;
+    background-color:rgb(252,252,254,255);
+    display:block;
+}
+.image img{
+    width: 70%;
+    object-fit:cover;
+    margin-right:auto;
+    margin-left:260px;
+    background-image:url(./video/)
+}
+.enter{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background: rgb(252,252,254,255);
+    line-height: 50px;
+    margin-right:auto;
+    margin-left:50px;
+}
+a{color:rgb(71, 70, 70);
+    text-decoration:none;
+    font-size:20px;
+    font-style:italic;
+}
+
+.play-on-hover{
+    width:600px;
+    height:600px;
+    background-image: url(./video/static.jpg);
+    background-size:cover;
+    margin-right:auto;
+    margin-left:240px;
+}
+.play-on-hover:hover{
+    background-image:url(./video/Elephant\ walking-.gif);
+}
+
