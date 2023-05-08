@@ -62,7 +62,7 @@ transform: translateY(-50%);
 .btn {
     border: none;
     outline:none;
-    background-color:white;
+    background-color:black;
     cursor:pointer;
 }
 
@@ -160,7 +160,6 @@ img:hover{
     left:50%;
     margin-top:-150px;
     margin-left:50px;
-    display:none;
 }
 
 .circle02{
@@ -200,7 +199,6 @@ img:hover{
     left:50%;
     margin-top:25px;
     margin-left:-255px;
-    display:none;
 }
 .circle03{
     width:80px;
