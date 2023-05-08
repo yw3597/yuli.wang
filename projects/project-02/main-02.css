@@ -54,13 +54,16 @@ transform: translateY(-50%);
     }
 
 .row {
-    margin: 8px -16px;
+    margin: 30px;
 }
 
  .content {
     padding: 10px;
-    }
-      
+}
+    
+.content:hover{
+    transform:scale(1.5);
+}
 .show {
     display: block;
 }
