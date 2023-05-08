@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <!--stylesheet-->
     <link rel="stylesheet" href="main-01.css">
+    <script src="./main.js"></script>
 </head>
 <body>
     <div class="navigation">
@@ -23,81 +23,89 @@
         </div>
     </div>
     <div class="main">
-        <div class="circle">
-            <img alt=""height="180"width="180"src="./image/Elephant in wild.png">
-        </div>
-        <div class="circle">
-            <div class="image-120">
-                <img alt=""height="180"width="180"src="./image/house-market.png">
+        <div id="myBtnContainer">
+            <div class="circle">
+                <button class="btn" onclick="filterSelection('wild')"><img alt=""height="180"width="180"src="./image/Elephant in wild.png"></button>
             </div>
-        </div>
-        <div class="circle">
-            <div class="image-240">
-                <img alt=""height="180"width="180"src="./image/city.png">
+            <div class="circle">
+                <div class="image-120">
+                    <button class="btn" onclick="filterSelection('market')"><img alt=""height="180"width="180"src="./image/house-market.png"></button>
+                </div>
             </div>
-        </div>
-        <div class="message">
-            <p class="text">How do elephants live with others?</p>
-            <script src="./main.js"></script>
-        </div>
-    </div>
-    <div class="main02">
-        <div class="circle02">
-            <div class="image">
-                <img alt=""height="100"width="100"src="./image/wild/Forest_banana.png">
+            <div class="circle">
+                <div class="image-240">
+                    <button class="btn" onclick="filterSelection('city')"><img alt=""height="180"width="180"src="./image/city.png"></button>
+                </div>
             </div>
-        </div>
-        <div class="circle02">
-            <div class="image-54">
-                <img alt=""height="100"width="100"src="./image/wild/Forest_grass.png">
-            </div>
-        </div>
-        <div class="circle02">
-            <div class="image-108">
-                <img alt=""height="100"width="100"src="./image/wild/Forest_herb.png">
-            </div>
-        </div>
-        <div class="circle02">
-            <div class="image-054">
-                <img alt=""height="100"width="100"src="./image/wild/Forest_leaves.png">
-            </div>
-        </div>
-        <div class="circle02">
-            <div class="image-0108">
-                <img alt=""height="100"width="100"src="./image/wild/Forest_tree bark.png">
+            <div class="message">
+                <p class="text">How do elephants live with others?</p>
             </div>
         </div>
     </div>
-    <div class="main03">
-        <div class="circle03">
-            <div class="image-225">
-                <img alt=""height="80"width="80"src="./image/market/Market_banana farm.png">
+    <div class ="filterDiv wild">
+        <div class="main02">
+            <div class="circle02">
+                <div class="image">
+                    <img alt=""height="100"width="100"src="./image/wild/Forest_banana.png">
+                </div>
             </div>
-        </div>
-        <div class="circle03">
-            <div class="image-45">
-                <img alt=""height="80"width="80"src="./image/market/Market_color.png">
+            <div class="circle02">
+                <div class="image-54">
+                    <img alt=""height="100"width="100"src="./image/wild/Forest_grass.png">
+                </div>
             </div>
-        </div>
-        <div class="circle03">
-            <div class="image-90">
-                <img alt=""height="80"width="80"src="./image/market/Market_drink coffee.png">
+            <div class="circle02">
+                <div class="image-108">
+                    <img alt=""height="100"width="100"src="./image/wild/Forest_herb.png">
+                </div>
             </div>
-        </div>
-        <div class="circle03">
-            <div class="image-45">
-                <img alt=""height="80"width="80"src="./image/market/Market_make fabric.png">
+            <div class="circle02">
+                <div class="image-054">
+                    <img alt=""height="100"width="100"src="./image/wild/Forest_leaves.png">
+                </div>
             </div>
-        </div>
-        <div class="circle03">
-            <div class="image-135">
-                <img alt=""height="80"width="80"src="./image/market/Market_mud play.png">
-            </div>
-        </div>
-        <div class="circle03">
-            <div class="image-180">
-                <img alt=""height="80"width="80"src="./image/market/Market_napier grass.png">
+            <div class="circle02">
+                <div class="image-0108">
+                    <img alt=""height="100"width="100"src="./image/wild/Forest_tree bark.png">
+                </div>
             </div>
         </div>
     </div>
+    <div class="filterDiv market">
+        <div class="main03">
+            <div class="circle03">
+                <div class="image-225">
+                    <img alt=""height="80"width="80"src="./image/market/Market_banana farm.png">
+                </div>
+            </div>
+            <div class="circle03">
+                <div class="image-45">
+                    <img alt=""height="80"width="80"src="./image/market/Market_color.png">
+                </div>
+            </div>
+            <div class="circle03">
+                <div class="image-90">
+                    <img alt=""height="80"width="80"src="./image/market/Market_drink coffee.png">
+                </div>
+            </div>
+            <div class="circle03">
+                <div class="image-45">
+                    <img alt=""height="80"width="80"src="./image/market/Market_make fabric.png">
+                </div>
+            </div>
+            <div class="circle03">
+                <div class="image-135">
+                    <img alt=""height="80"width="80"src="./image/market/Market_mud play.png">
+                </div>
+            </div>
+            <div class="circle03">
+                <div class="image-180">
+                    <img alt=""height="80"width="80"src="./image/market/Market_napier grass.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./main.js"></script>
 </body>
+</html>

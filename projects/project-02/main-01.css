@@ -59,6 +59,22 @@ transform: translateY(-50%);
     margin:0px;
 }
 
+.btn {
+    border: none;
+    outline:none;
+    background-color:black;
+    cursor:pointer;
+}
+
+.btn.atcive{
+    border:solid yellow 2px;
+}
+
+.show{
+    display:block;
+}
+
+
 img:hover{
     transform:scale(1.5);
 }
@@ -97,6 +113,8 @@ img:hover{
 .image-225{
     rotate:0deg;
 }
+
+
 .main{
     width:400px;
     height:400px;
@@ -130,6 +148,9 @@ img:hover{
     transform:rotate(240deg) translateX(200px); 
 }
 
+.filterDiv{
+    display: none;
+}
 .main02{
     width:300px;
     height:300px;
@@ -139,6 +160,7 @@ img:hover{
     left:50%;
     margin-top:-150px;
     margin-left:50px;
+    display:none;
 }
 
 .circle02{
@@ -148,6 +170,7 @@ img:hover{
     position:absolute;
     left:100px;
     top:100px;
+    overflow:hidden;
 }
 
 .circle02:nth-child(1){
@@ -177,6 +200,7 @@ img:hover{
     left:50%;
     margin-top:25px;
     margin-left:-255px;
+    display:none;
 }
 .circle03{
     width:80px;
@@ -185,6 +209,7 @@ img:hover{
     position:absolute;
     left:110px;
     top:110px;
+    overflow:hidden;
 }
 .circle03:nth-child(1){
     transform: rotate(0deg)translateX(150px);
