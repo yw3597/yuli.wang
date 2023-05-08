@@ -1,6 +1,136 @@
-.image img{
-    width: 50%;
-    height:auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    list-style-type: none;
+    background: #ffffff;
+    line-height: 50px;
+    flex-wrap:wrap;
+    vertical-align:middle;
+}
+
+.navtext{
+    margin-left:10px;
+    margin-top:10px;
+    border:2px solid gray;
+    border-radius:50px;
+    line-height: fit-content;
+    padding-left:40px;
+    padding-right:40px;
+}
+.container-top{
+    display: flex;
+    list-style-type: none;
+    background: #ffffff;
+    line-height: 50px;
+    flex-wrap:wrap;
+    vertical-align:middle;
+}
+.left{
+    margin-left:0px;
+    margin-right:auto;
+}
+
+.right{
+    margin-right:0px;
+    margin-left:auto;
+}
+.p-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:100ch;
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+li {
+    padding: 0 40px;
+}
+
+li:hover {
+    animation: colors 2s;
+}
+
+@keyframes colors {
+    50% {
+        background-color: #8d74f0;
+    }
+    100% {
+        background-color:#8d74f064;
+    }
+}
+
+.search{
+    margin-left:20px;
+    margin-top:50px;
+    margin-bottom:50px;
+    font-weight:200;
+    color:gray;
+    font-size:20px;
+}
+
+.search:hover{
+    color:black;
+}
+
+.info1{
+    text-align:center;
+    margin-left:10%;
+    margin-right:10%;
+    color:black;
+    font-size:15px;
+    margin-top:10px;
+}
+
+.info2{
+    text-align:center;
+    margin-left:10%;
+    margin-right:10%;
+    color:black;
+    font-size:15px;
+    margin-top:10px;
+    margin-bottom:50px;
+}
+img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:81%;
+    object-fit: cover;
+    object-position:0% 50%;
+}
+
+.info2:hover{
+    text-decoration:underline;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;  
+    margin-left
+}
+.pic{
+    width: 24%;
     object-fit:cover;
-    object-position:0,0;
+
 }
